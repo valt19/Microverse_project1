@@ -1,0 +1,51 @@
+text{height: 150px;
+width: 327px;
+left: 24px;
+top: 114px;
+border-radius: nullpx;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+/* or 130% */
+
+display: flex;
+align-items:center;
+
+/* Neutrals/N800 */
+
+color: #172B4D;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+button{
+    flex-wrap: wrap;
+    flex-direction: column;
+display: flex;
+color: #2233ce;
+background-color: rgb(240, 248, 255);
+
+
+}
+.header-section{
+    display:block;
+background: #FFFFFF;
+}
+.eclipse{
+    position: absolute;
+width: 105px;
+height: 105px;
+left: 323px;
+top: 152.24px;
+
+/* Primary/B400 */
+
+background: #6070FF;
+}
