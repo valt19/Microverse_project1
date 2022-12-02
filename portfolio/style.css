@@ -1,22 +1,76 @@
-text{height: 150px;
+.section-text{
+    width: 327px;
+    height: 150px;
+    
+    /* Header / 2 */
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    /* or 130% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Neutrals/N800 */
+    
+    color: #172B4D;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section-head{
+    
 width: 327px;
-left: 24px;
-top: 114px;
-border-radius: nullpx;
+height: 146px;
+
+/* Body / 2 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+/* Neutrals/N600 */
+
+color: #344563;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.my-logo{
+    
+width: 76px;
+height: 20px;
+
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-/* or 130% */
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
 
 display: flex;
-align-items:center;
+align-items: center;
+text-align: center;
 
-/* Neutrals/N800 */
+/* Primary/B400 */
 
-color: #172B4D;
-
+color: #6070FF;
 
 
 /* Inside auto layout */
@@ -25,27 +79,46 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-button{
-    flex-wrap: wrap;
-    flex-direction: column;
-display: flex;
-color: #2233ce;
-background-color: rgb(240, 248, 255);
+.logo{
+    
+width: 117px;
+height: 24px;
+
+/* Body / 2 - Bolder */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
 
 
+/* Primary/B300 */
+
+color: #7F8CFF;
+
+
+/* Inside auto layout */
+
+flex:none;
+order: 0;
+flex-grow:0;
 }
-.header-section{
-    display:block;
-background: #FFFFFF;
+.nav{
+
 }
-.eclipse{
+.section-header{
+    background-color: rgb(247, 248, 248);
+}
+.svg{
     position: absolute;
-width: 105px;
-height: 105px;
-left: 323px;
-top: 152.24px;
+left: 6.4%;
+right: 88.27%;
+top: 77.81%;
+bottom: 18.88%;
 
-/* Primary/B400 */
+/* Neutrals/N400 */
 
-background: #6070FF;
+background: #4f5053;
 }
